@@ -105,7 +105,7 @@
                    
                    <i class="fa fa-shopping-cart"></i>
                    
-                   <span>4 Items In Your Cart</span>
+                   <span>Items on your cart</span>
                    
                </a><!-- btn navbar-btn btn-primary Finish -->
                
@@ -170,25 +170,25 @@
                    
                    <div class="item active">
                        
-                       <img src="admin_area/slides_images/slide-1.jpg" alt="Slider Image 1">
+                       <img src="background.jpg" alt="Slider Image 1">
                        
                    </div>
                    
                    <div class="item">
                        
-                       <img src="admin_area/slides_images/slide-2.jpg" alt="Slider Image 2">
+                       <img src="background%202.jpg" alt="Slider Image 2">
                        
                    </div>
                    
                    <div class="item">
                        
-                       <img src="admin_area/slides_images/slide-3.jpg" alt="Slider Image 3">
+                       <img src="background.jpg" alt="Slider Image 3">
                        
                    </div>
                    
                    <div class="item">
                        
-                       <img src="admin_area/slides_images/slide-4.jpg" alt="Slider Image 4">
+                       <img src="background%202.jpg" alt="Slider Image 4">
                        
                    </div>
                    
@@ -232,7 +232,7 @@
                        
                        <h3><a href="#">Best Offer</a></h3>
                        
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                       <p>Blazer for sale. </p>
                        
                    </div><!-- box same-height Finish -->
                    
@@ -250,7 +250,7 @@
                        
                        <h3><a href="#">Best Prices</a></h3>
                        
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       <p>Offers for men and women</p>
                        
                    </div><!-- box same-height Finish -->
                    
@@ -268,7 +268,7 @@
                        
                        <h3><a href="#">100% Original</a></h3>
                        
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       <p>Best garments for sale</p>
                        
                    </div><!-- box same-height Finish -->
                    
@@ -310,7 +310,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b2.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -318,7 +318,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Woman T-Shirt
+                               Blazer
                            </a>
                        </h3>
                        
@@ -350,7 +350,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-2.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -358,7 +358,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Man T-Shirt
+                               Coats
                            </a>
                        </h3>
                        
@@ -390,7 +390,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b2.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -398,7 +398,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Woman T-Shirt
+                               BLAZER
                            </a>
                        </h3>
                        
@@ -430,7 +430,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-2.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -438,7 +438,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Man T-Shirt
+                               suits
                            </a>
                        </h3>
                        
@@ -470,7 +470,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-2.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b2.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -478,7 +478,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Man T-Shirt
+                               Blazer
                            </a>
                        </h3>
                        
@@ -510,7 +510,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -518,7 +518,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Woman T-Shirt
+                               suits
                            </a>
                        </h3>
                        
@@ -550,7 +550,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-2.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b1.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -558,7 +558,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Man T-Shirt
+                               blazer
                            </a>
                        </h3>
                        
@@ -590,7 +590,7 @@
                    
                    <a href="details.php">
                        
-                       <img class="img-responsive" src="admin_area/product_images/product-1.jpg" alt="Product 1">
+                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
                        
                    </a>
                    
@@ -598,7 +598,7 @@
                        
                        <h3>
                            <a href="details.php">
-                               M-Dev Woman T-Shirt
+                               premium
                            </a>
                        </h3>
                        
