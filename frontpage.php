@@ -44,9 +44,53 @@
 								</nav>
                                 </div>
                                 </div>
+                                </div>
          </div>                  
                 <div class="container">
-                    <div class="col-sm2" style="background-color: black;color;white"></div>        
-                    <h1>Our Brands</h1>
+				<div class="col-sm-2" style="background-color: black;color: black">
+					<h1 align="center">Brands</h1>
+                      <center>  <p><a href="dell.php" style="color: white">Dell</a></p><br>
+                         <p><a href="dell.php" style="color: white">HP</a></p><br>
+                          <p><a href="dell.php" style="color: white">Samsung</a></p><br>
+                          <p><a href="dell.php" style="color: white">Canon</a></p><br></center>
+
+					<h1 align="center">Cetegory</h1>
+                         <center>  <p><a href="dell.php" style="color: white">Laptop</a></p><br>
+                         <p><a href="dell.php" style="color: white">Mobile</a></p><br>
+                          <p><a href="dell.php" style="color: white">Camara</a></p><br>
+                             <p><a href="tv.php" style="color: white">TV</a></p><br></center>
+				</div>
+                    <div class="col-sm-10">
+                    <div class="col-sm-4"><center><img src="img/c5.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+                    <div class="col-sm-4"><center><img src="img/c6.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+                    <div class="col-sm-4"><center><img src="img/d1.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+  <br><br>.                      
+                    <div class="col-sm-4"><center><img src="img/c5.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+                    <div class="col-sm-4"><center><img src="img/c6.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+                    <div class="col-sm-4"><center><img src="img/d1.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+  <br><br>.                    
+                    <div class="col-sm-4"><center><img src="img/c5.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+                    <div class="col-sm-4"><center><img src="img/c6.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>
+                    <div class="col-sm-4"><center><img src="img/d1.jpg" width="150px" height="150px"></center><br>
+                        <center><a href="b.php" class="btn btn-primary">Buy Now</a></center>
+                        </div>    
+                    </div>
+                    
         </body>
         </html>
