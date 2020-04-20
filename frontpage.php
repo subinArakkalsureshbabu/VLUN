@@ -21,6 +21,31 @@
 			<h1><font face="Centaur">VLUN</font></h1>
 		</div>
 		<div class="container">
+            <div class="container" style="background: red; color: black;"> 
+								<div class="row">  <!-- row start -->
+
+								<div class="col-sm-12 mymenu">
+								<nav class="navbar ">
+								<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mystyle">
+								<span class="icon-bar">--</span>
+								<span class="icon-bar">--</span>
+								<span class="icon-bar">--</span>
+								</button>
+								</div>
+								<div class="collapse navbar-collapse" id="mystyle">
+								    <ul class="nav navbar-nav">
+								<li><a href="index.php" class="active"><font color="white">Home</font></a></li>
+								<li><a href="#"><font color="white">More</font></a></li>
+								<li><a href="#"><font color="white">Contact</font></a></li>
+								<li><a href="#"><font color="white">For help</a></font></li>
+								</ul>
+								<div>
+								</nav>
+                                </div>
+                                </div>
+                                    </div>                  
+                </div>
         </div>
         </body>
         </html>
