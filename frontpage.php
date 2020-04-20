@@ -44,8 +44,9 @@
 								</nav>
                                 </div>
                                 </div>
-                                    </div>                  
-                </div>
-        </div>
+         </div>                  
+                <div class="container">
+                    <div class="col-sm2" style="background-color: black;color;white"></div>        
+                    <h1>Our Brands</h1>
         </body>
         </html>
