@@ -75,7 +75,7 @@ include("connection.php");
                           
                             	$id=$row['id'];
                             	$name=$row['name'];
-                            	$img=$row['img'];
+                            	$img=$row['image'];
                             	$brand=$row['brand'];
                          ?>
                            
