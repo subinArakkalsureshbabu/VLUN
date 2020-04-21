@@ -5,7 +5,7 @@ $Pass = $_POST['password'];
 
 //Database connection
 
-$conn = new mysqli('localhost','root','','vlu');
+$conn = new mysqli('localhost','root','','ecom');
 if($conn->connect_error){
 die('Connection Failed : ');
 }
