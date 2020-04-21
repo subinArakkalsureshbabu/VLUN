@@ -1,638 +1,94 @@
+<?php
+include("connection.php");
+?>
 <!DOCTYPE html>
-<html lang="english">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M-Dev Store</title>
-    <link rel="stylesheet" href="styles/bootstrap-337.min.css">
-    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Home</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+	
 </head>
 <body>
-   
-   <div id="top"><!-- Top Begin -->
-       
-       <div class="container"><!-- container Begin -->
-           
-           <div class="col-md-6 offer"><!-- col-md-6 offer Begin -->
-               
-               <a href="#" class="btn btn-success btn-sm">VLUN</a>
-               <a href="checkout.php"> </a>
-               
-           </div><!-- col-md-6 offer Finish -->
-           
-           <div class="col-md-6"><!-- col-md-6 Begin -->
-               
-               <ul class="menu"><!-- cmenu Begin -->
-                   
-                   <li>
-                       <a href="customer_register.php">Register</a>
-                   </li>
-                   <li>
-                       <a href="checkout.php">My Account</a>
-                   </li>
-                   <li>
-                       <a href="cart.php">Go To Cart</a>
-                   </li>
-                   <li>
-                       <a href="checkout.php">Login</a>
-                   </li>
-                   
-               </ul><!-- menu Finish -->
-               
-           </div><!-- col-md-6 Finish -->
-           
-       </div><!-- container Finish -->
-       
-   </div><!-- Top Finish -->
-   
-   <div id="navbar" class="navbar navbar-default"><!-- navbar navbar-default Begin -->
-       
-       <div class="container"><!-- container Begin -->
-           
-           <div class="navbar-header"><!-- navbar-header Begin -->
-               
-               <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
-                   
-                   
-               </a><!-- navbar-brand home Finish -->
-               
-               <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                   
-                   <span class="sr-only">Toggle Navigation</span>
-                   
-                   <i class="fa fa-align-justify"></i>
-                   
-               </button>
-               
-               <button class="navbar-toggle" data-toggle="collapse" data-target="#search">
-                   
-                   <span class="sr-only">Toggle Search</span>
-                   
-                   <i class="fa fa-search"></i>
-                   
-               </button>
-               
-           </div><!-- navbar-header Finish -->
-           
-           <div class="navbar-collapse collapse" id="navigation"><!-- navbar-collapse collapse Begin -->
-               
-               <div class="padding-nav"><!-- padding-nav Begin -->
-                   
-                   <ul class="nav navbar-nav left"><!-- nav navbar-nav left Begin -->
-                       
-                       <li class="active">
-                           <a href="index.php">Home</a>
-                       </li>
-                       <li>
-                           <a href="shop.php">Shop</a>
-                       </li>
-                       <li>
-                           <a href="checkout.php">My Account</a>
-                       </li>
-                       <li>
-                           <a href="cart.php">Shopping Cart</a>
-                       </li>
-                       <li>
-                           <a href="contact.php">Contact Us</a>
-                       </li>
-                       
-                   </ul><!-- nav navbar-nav left Finish -->
-                   
-               </div><!-- padding-nav Finish -->
-               
-               <a href="cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
-                   
-                   <i class="fa fa-shopping-cart"></i>
-                   
-                   <span>Items on your cart</span>
-                   
-               </a><!-- btn navbar-btn btn-primary Finish -->
-               
-               <div class="navbar-collapse collapse right"><!-- navbar-collapse collapse right Begin -->
-                   
-                   <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search"><!-- btn btn-primary navbar-btn Begin -->
-                       
-                       <span class="sr-only">Toggle Search</span>
-                       
-                       <i class="fa fa-search"></i>
-                       
-                   </button><!-- btn btn-primary navbar-btn Finish -->
-                   
-               </div><!-- navbar-collapse collapse right Finish -->
-               
-               <div class="collapse clearfix" id="search"><!-- collapse clearfix Begin -->
-                   
-                   <form method="get" action="results.php" class="navbar-form"><!-- navbar-form Begin -->
-                       
-                       <div class="input-group"><!-- input-group Begin -->
-                           
-                           <input type="text" class="form-control" placeholder="Search" name="user_query" required>
-                           
-                           <span class="input-group-btn"><!-- input-group-btn Begin -->
-                           
-                           <button type="submit" name="search" value="Search" class="btn btn-primary"><!-- btn btn-primary Begin -->
-                               
-                               <i class="fa fa-search"></i>
-                               
-                           </button><!-- btn btn-primary Finish -->
-                           
-                           </span><!-- input-group-btn Finish -->
-                           
-                       </div><!-- input-group Finish -->
-                       
-                   </form><!-- navbar-form Finish -->
-                   
-               </div><!-- collapse clearfix Finish -->
-               
-           </div><!-- navbar-collapse collapse Finish -->
-           
-       </div><!-- container Finish -->
-       
-   </div><!-- navbar navbar-default Finish -->
-   
-   <div class="container" id="slider"><!-- container Begin -->
-       
-       <div class="col-md-12"><!-- col-md-12 Begin -->
-           
-           <div class="carousel slide" id="myCarousel" data-ride="carousel"><!-- carousel slide Begin -->
-               
-               <ol class="carousel-indicators"><!-- carousel-indicators Begin -->
-                   
-                   <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
-                   <li data-target="#myCarousel" data-slide-to="1"></li>
-                   <li data-target="#myCarousel" data-slide-to="2"></li>
-                   <li data-target="#myCarousel" data-slide-to="3"></li>
-                   
-               </ol><!-- carousel-indicators Finish -->
-               
-               <div class="carousel-inner"><!-- carousel-inner Begin -->
-                   
-                   <div class="item active">
-                       
-                       <img src="background.jpg" alt="Slider Image 1">
-                       
-                   </div>
-                   
-                   <div class="item">
-                       
-                       <img src="background%202.jpg" alt="Slider Image 2">
-                       
-                   </div>
-                   
-                   <div class="item">
-                       
-                       <img src="background.jpg" alt="Slider Image 3">
-                       
-                   </div>
-                   
-                   <div class="item">
-                       
-                       <img src="background%202.jpg" alt="Slider Image 4">
-                       
-                   </div>
-                   
-               </div><!-- carousel-inner Finish -->
-               
-               <a href="#myCarousel" class="left carousel-control" data-slide="prev"><!-- left carousel-control Begin -->
-                   
-                   <span class="glyphicon glyphicon-chevron-left"></span>
-                   <span class="sr-only">Previous</span>
-                   
-               </a><!-- left carousel-control Finish -->
-               
-               <a href="#myCarousel" class="right carousel-control" data-slide="next"><!-- left carousel-control Begin -->
-                   
-                   <span class="glyphicon glyphicon-chevron-right"></span>
-                   <span class="sr-only">Next</span>
-                   
-               </a><!-- left carousel-control Finish -->
-               
-           </div><!-- carousel slide Finish -->
-           
-       </div><!-- col-md-12 Finish -->
-       
-   </div><!-- container Finish -->
-   
-   <div id="advantages"><!-- #advantages Begin -->
-       
-       <div class="container"><!-- container Begin -->
-           
-           <div class="same-height-row"><!-- same-height-row Begin -->
-               
-               <div class="col-sm-4"><!-- col-sm-4 Begin -->
-                   
-                   <div class="box same-height"><!-- box same-height Begin -->
-                       
-                       <div class="icon"><!-- icon Begin -->
-                           
-                           <i class="fa fa-heart"></i>
-                           
-                       </div><!-- icon Finish -->
-                       
-                       <h3><a href="#">Best Offer</a></h3>
-                       
-                       <p>Blazer for sale. </p>
-                       
-                   </div><!-- box same-height Finish -->
-                   
-               </div><!-- col-sm-4 Finish -->
-               
-               <div class="col-sm-4"><!-- col-sm-4 Begin -->
-                   
-                   <div class="box same-height"><!-- box same-height Begin -->
-                       
-                       <div class="icon"><!-- icon Begin -->
-                           
-                           <i class="fa fa-tag"></i>
-                           
-                       </div><!-- icon Finish -->
-                       
-                       <h3><a href="#">Best Prices</a></h3>
-                       
-                       <p>Offers for men and women</p>
-                       
-                   </div><!-- box same-height Finish -->
-                   
-               </div><!-- col-sm-4 Finish -->
-               
-               <div class="col-sm-4"><!-- col-sm-4 Begin -->
-                   
-                   <div class="box same-height"><!-- box same-height Begin -->
-                       
-                       <div class="icon"><!-- icon Begin -->
-                           
-                           <i class="fa fa-thumbs-up"></i>
-                           
-                       </div><!-- icon Finish -->
-                       
-                       <h3><a href="#">100% Original</a></h3>
-                       
-                       <p>Best garments for sale</p>
-                       
-                   </div><!-- box same-height Finish -->
-                   
-               </div><!-- col-sm-4 Finish -->
-               
-           </div><!-- same-height-row Finish -->
-           
-       </div><!-- container Finish -->
-       
-   </div><!-- #advantages Finish -->
-   
-   <div id="hot"><!-- #hot Begin -->
-       
-       <div class="box"><!-- box Begin -->
-           
-           <div class="container"><!-- container Begin -->
-               
-               <div class="col-md-12"><!-- col-md-12 Begin -->
-                   
-                   <h2>
-                       Our Latest Products
-                   </h2>
-                   
-               </div><!-- col-md-12 Finish -->
-               
-           </div><!-- container Finish -->
-           
-       </div><!-- box Finish -->
-       
-   </div><!-- #hot Finish -->
-   
-   <div id="content" class="container"><!-- container Begin -->
-       
-       <div class="row"><!-- row Begin -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b2.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               Blazer
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               Coats
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b2.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               BLAZER
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               suits
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b2.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               Blazer
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               suits
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b1.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               blazer
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-           <div class="col-sm-4 col-sm-6 single"><!-- col-sm-4 col-sm-6 single Begin -->
-               
-               <div class="product"><!-- product Begin -->
-                   
-                   <a href="details.php">
-                       
-                       <img class="img-responsive" src="b3.jpg" alt="Product 1">
-                       
-                   </a>
-                   
-                   <div class="text"><!-- text Begin -->
-                       
-                       <h3>
-                           <a href="details.php">
-                               premium
-                           </a>
-                       </h3>
-                       
-                       <p class="price">$30</p>
-                       
-                       <p class="button">
-                           
-                           <a href="details.php" class="btn btn-default">View Details</a>
-                           
-                           <a href="details.php" class="btn btn-primary">
-                               
-                               <i class="fa fa-shopping-cart">
-                                   Add To Cart
-                               </i>
-                               
-                           </a>
-                           
-                       </p>
-                       
-                   </div><!-- text Finish -->
-                   
-               </div><!-- product Finish -->
-               
-           </div><!-- col-sm-4 col-sm-6 single Finish -->
-           
-       </div><!-- row Finish -->
-       
-   </div><!-- container Finish -->
-   
-   <?php include("footer.php");?>
-    
-    <script src="js/jquery-331.min.js"></script>
-    <script src="js/bootstrap-337.min.js"></script>
-    
-    
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<div class="container-fluid">
+		<div class="container-fluid" style="background-color: black;color: white;">
+		<div class="container">
+	     <p class="pull-right">E-mail: xxxxxx12@example.com</p>
+	   </div>
+	   </div>
+		<div class="container">
+			<h1><font face="Centaur">My Shop</font></h1>
+		</div>
+		<div class="container">
+											<div class="container" style="background: blue; color: white;"> <!--contener start -->
+								<div class="row">  <!-- row start -->
+
+								<div class="col-sm-12 mymanu">
+								<nav class="navbar ">
+								<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mystyle">
+								<span class="icon-bar">--</span>
+								<span class="icon-bar">--</span>
+								<span class="icon-bar">--</span>
+								</button>
+								</div>
+								<div class="collapse navbar-collapse" id="mystyle">
+								    <ul class="nav navbar-nav">
+								<li><a href="index.php" class="active"><font color="white">Home</font></a></li>
+								<li><a href="#"><font color="white">About Us</font></a></li>
+								<li><a href="#"><font color="white">Contect Us</font></a></li>
+								<li><a href="#"><font color="white">Help</a></font></li>
+								</ul>
+								<div>
+								</nav>
+								</div>
+								</div> <!-- row End -->
+								</div> <!-- contener end -->
+		</div>
+
+		<div class="container">
+				<h1>Admin Login</h1><br><br>
+				<form action="" method="post">
+				<table class="table">
+					<tr>
+					<td>Enter Username</td>
+					<td><input type="text" name="un" placeholder="Enter Username" class="form-control" required="required"></td>
+				    </tr>
+				    <tr>
+					<td>Enter Password</td>
+					<td><input type="password" name="ps" placeholder="Enter Password" class="form-control" required="required"></td>
+				    </tr>
+				    <tr>
+				    	<td colspan="2"><input type="submit" name="sub" value="Login" class="btn btn-primary"></td>
+				    </tr>
+				</table>
+			</form><br><br>
+			<?php
+              if(isset($_POST['sub']))
+              {
+              	   $un=$_POST['un'];
+              	   $ps=$_POST['ps'];
+
+              	   $q="select * from admin";
+              	   $run=mysqli_query($link,$q);
+              	   $row=mysqli_fetch_array($run);
+              	   $u=$row['un'];
+              	   $p=$row['ps'];
+              	   if($un==$u && $ps==$p)
+              	   {
+              	   	   header("Location:ahome.php");
+              	   }
+
+              }
+			?>
+		</div>
+		<div class="container" style="background-color: silver;color: white">
+			<h1 align="center">My Project HD</h1>
+		</div>
+	</div>
 </body>
 </html>
